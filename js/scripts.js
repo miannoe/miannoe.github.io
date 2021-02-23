@@ -43,6 +43,9 @@ $(function () {
         autoplay: true,
         parallax: true,
         loop: true,
+        autoplay: {
+          delay: 10000
+        },
         pagination: {
             el: '.slider .parallax-slider .swiper-pagination',
             clickable: true
