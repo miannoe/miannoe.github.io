@@ -17,11 +17,12 @@ $(function () {
 
             navbar.addClass("nav-scroll");
             logo.attr('src', '/img/logo-dark-miannoe.svg');
+            logo.attr('width', '50%');
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', '/img/logo-light.png');
+            logo.attr('src', '/img/logo-light-miannoe.svg');
         }
     });
 
