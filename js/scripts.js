@@ -16,7 +16,7 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', '/img/logo-dark-miannoe.png');
+            logo.attr('src', '/img/logo-dark-miannoe.svg');
         } else {
 
             navbar.removeClass("nav-scroll");
