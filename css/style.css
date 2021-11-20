@@ -2027,7 +2027,7 @@ body {
 
 .services.halfbg .ontop {
   position: relative;
-  margin-top: -120px;
+  /*margin-top: -120px;*/
   z-index: 3; }
   .services.halfbg .ontop .item-bx:hover {
     background: #b19777; }
