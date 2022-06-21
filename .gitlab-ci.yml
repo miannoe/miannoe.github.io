@@ -1,8 +1,9 @@
 image: node:latest
 pages:
   script:
-    - mkdir public
-    - mv !(public) public
+    mkdir .public
+    - cp -r * .public
+    - mv .public public
   artifacts:
     paths:
       - public
