@@ -185,7 +185,12 @@ a, span {
   background-repeat: repeat; }
 
 .section-padding {
-  padding: 120px 0; }
+  padding: 120px 0;
+}
+
+.section-padding-bottom {
+  padding: 0 0 120px;
+}
 
 .section-ptb {
   padding: 80px 0; }
